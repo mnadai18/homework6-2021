@@ -43,7 +43,7 @@ a:visited {
 }
 
 .card {
-  flex-basis: 250px;
+  flex-basis: 450px;
 }
 
 .gallery img {
@@ -72,6 +72,11 @@ a:visited {
     animation-name: animation;
     animation-duration: 5s;
     animation-iteration-count: 1;
+  }
+}
+@media screen and (min-width: 850px) {
+  .card {
+    flex-basis: 250px;
   }
 }
 
